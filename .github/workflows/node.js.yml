@@ -28,6 +28,7 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm i @chakra-ui/react --legacy-peer-deps
+    - run: npm i @chakra-ui/system
     - run: npm run build
     - run: npm run export
     
