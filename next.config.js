@@ -10,7 +10,10 @@ const nextConfig = {
   images: {
     loader: "akamai",
     path: "",
-  }
+  },
+  basePath: "/nlphub",
+  assetPrefix: "/nlphub"
+
 };
 
 module.exports = withMDX(nextConfig);
